@@ -40,3 +40,5 @@ This extension allows you to toggle the text direction on any webpage between le
 بر روی آیکون افزونه کلیک کنید تا جهت متن را تغییر دهید.
 
 از کلید میانبر Alt+Shift+L برای تغییر جهت متن استفاده کنید.
+
+ضمنا برای نوشتن این از خود کوپایلوت کمک گرفته شده است.
