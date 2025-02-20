@@ -18,6 +18,8 @@ This extension allows you to toggle the text direction on any webpage between le
 
 - Click on the extension icon to toggle the text direction.
 - Use the keyboard shortcut `Alt+Shift+L` to toggle the text direction.
+------------------------
+This project was developed with the help of Microsoft Copilot.
 
 
 افزونه RTL
