@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "RTL Script",
+  "version": "1.0",
+  "description": "Right-align text on all pages",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "Icon16x16.png",
+      "48": "Icon48x48.png",
+      "128": "Icon128x128.png"
+    }
+  },
+  "commands": {
+    "toggle-rtl": {
+      "suggested_key": {
+        "default": "Alt+Shift+L"
+      },
+      "description": "Toggle RTL"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
